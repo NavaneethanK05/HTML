@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/main.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vj;
+    height: 100vh;
+}
+
+.main li{
+    display: inline;
+}
+.main h1{
+    padding-top: 25px;
+    padding-left: 45px;
+    color: darkorange;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main ul{
+    position: relative;
+    top: -25px;
+    left: 350px;
+}
+.main li{
+    padding: 30px;
+}
+.main input{
+    width: 250px;
+    height: 40px;
+    position: relative;
+    top: -50px;
+    left: 1100px;
+    border: 1px solid gray;
+    background: transparent;
+    font-size: 18px;
+    color: aliceblue;
+}
+.main button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: -52px;
+    left: 1030px;
+    background-color: darkorange;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left h2{
+    font-size: 55px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 85px;
+}
+.left h1{
+    font-size: 75px;
+    color: darkorange;
+    padding-left: 50px;
+}
+.left h3{
+    font-size: 55px;
+    color: white;
+    padding-left: 50px;
+}
+.left p{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
+    padding-top: 8px;
+}
+.left button{
+    width: 150px;
+    height: 40px;
+    border-radius: 13px;
+    background-color: darkorange;
+    position: relative;
+    left: 48px;
+    top: 20px;
+    cursor: pointer;
+}
+.right{
+    border: 2px solid;
+    width: 330px;
+    height: 450px;
+    position: relative;
+    left: 1000px;
+    top: -300px;
+    background-color: black;
+    border-radius: 15px;
+}
+.right h1{
+    width: 250px;
+    height: 50px;
+    border: solid;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: darkorange;
+    border-color: black;
+    margin-top: 25px;
+    margin-left: 39px;
+}
+.right input{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 35px;
+    margin-left: 42px;
+    width: 250px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(100, 65, 34);
+    color: white;
+    padding-bottom: 5px;
+}
+.right button{
+    width: 250px;
+    height: 50px;
+    border-radius: 13px;
+    background-color: darkorange;
+    margin-top: 30px;
+    margin-left: 39px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.right p{
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 72px;
+}
+.right span{
+    color: darkorange;
+}
+.right h3{
+    color: white;
+    margin-top: 15px;
+    margin-left: 114px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right footer{
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.right p span{
+    padding-left: 40px;
+}
+.change::placeholder{
+    color: white;
+}
+#password::placeholder{
+    color: white;
+}
